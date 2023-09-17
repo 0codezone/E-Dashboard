@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* ------------------------------------------------------ */
+body {
+  background-color: #FFDD83;
+}
+
+.nav-ul {
+  /* background-color: #98DFD6; */
+  /* background-color: #E21818; */
+  /* background-color: #FFDD83; */
+  background-color: #00235B;
+  padding: 5px;
+}
+
+
+.nav-ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.nav-ul li a:hover {
+  color: wheat;
+}
+
+.nav-ul-r {
+  text-align: right;
+}
+
+.profile-name {
+  font-weight: bold;
+  color: wheat;
+  margin-left: 10px;
+}
+
+.logout-btn {
+  border: 1px solid wheat;
+}
+
+.footer {
+  width: 100%;
+  background-color: #000f2e;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* .footer h2 {
+  color: white;
+} */
+
+
+/* -------------------------------- */
+/* Apply Flexbox to the footer container */
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.footer-contact,
+.footer-links,
+.footer-social {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer-contact h3,
+.footer-links h3,
+.footer-social h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-social li {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: transparent;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
